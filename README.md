@@ -76,5 +76,8 @@ Here are the flags available for inference:
 ```
  
 ### Results
+The results are displayed for each domains with the comparison of the ground-truth, single-site training and joint multiple sites training.
+![alt text](https://raw.githubusercontent.com/sebemery/Cross-Consistency-Prostate/main/images/results.PNG)
 
-![alt text]()
+Results shown here are not satisfactory, whcih might be due to the architecture of the segmentation network (PSP-resnet network).
+We hypothesize that by changing to a segmentation network well-known in medical problem could enhanced the results. The code provide the UNET network, but there has been no time to really explore it.
