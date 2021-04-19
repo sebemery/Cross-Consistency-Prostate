@@ -1,0 +1,14 @@
+.idea/
+__pycache__/*
+base/__pycache__/*
+data_draw_histogramms.py
+dataloaders/__pycache__/*
+models/__pycache__/*
+saved/*
+utils/__pycache__/*
+outputs/*
+data/draw_histogramms.py
+data/histogramms/*
+models/backbones/pretrained/*
+pseudo_labels/*
+
