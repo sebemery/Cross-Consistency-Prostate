@@ -1,8 +1,10 @@
 # Prostate_CCT
 Fall 2020 semester project (COM-508) carried on at LTS5 at EPFL.
 
-###Overview
+### Overview
 Adapted work of "Semi-supervised semantic segmentation wit cross-consistency training, Ouali et al., 2020". The goal is to reproduce the multiple domain results of their paper using multisite Prostate MRI dataset. 
+![alt text](https://raw.githubusercontent.com/sebemery/Cross-Consistency-Prostate/main/images/architecture.PNG)
+
 ### Data
 The data used was gathered form multiple challenges by **[Quande Liu](https://liuquande.github.io/SAML/)**. It contains T2-weighted MRI form six different sites.
 
@@ -74,3 +76,5 @@ Here are the flags available for inference:
 ```
  
 ### Results
+
+![alt text]()
