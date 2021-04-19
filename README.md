@@ -1,5 +1,18 @@
 # Prostate_CCT
+Fall 2020 semester project (COM-508) carried on at LTS5 at EPFL.
 
+###Overview
+Adapted work of "Semi-supervised semantic segmentation wit cross-consistency training, Ouali et al., 2020". The goal is to reproduce the multiple domain results of their paper using multisite Prostate MRI dataset. 
+### Data
+The data used was gathered form multiple challenges by **[Quande Liu](https://liuquande.github.io/SAML/)**. It contains T2-weighted MRI form six different sites.
+
+Once the data is downloaded it should be organized a followed under the `data folder`:
+```
+- Six folders named : BIDMC, HK , I2CVB, ISBI, ISBI_15 and UCL
+- Each subfolders contain two folder : Images and Segmentation
+- Each of this folder contains the .nii files (images or mask) for the desired site 
+```
+To split the data use the file `split_data.py` which saves the txt files of the split automatically under the right folder.
 ### Training
 
 To train a model :
@@ -60,3 +73,4 @@ Here are the flags available for inference:
 --overlay      If True saves the mri images with an overlay of the segmentation (one for the label and one for the prediction) 
 ```
  
+### Results
